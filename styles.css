@@ -48,21 +48,22 @@ nav {
 	margin: 0 auto 0 auto;
 }
 #nav-menu {
+	padding:  0 0 0 0;
 	background-color: #66E2E3;
-	padding:  0 10px 0 10px;
 	display:  flex;
 	flex-direction: column;
 	list-style-type: none;
 }
 #nav-menu li {
-	
+	flex-grow:  1;
 }
 #nav-menu li a {
+	text-align: center;
 	display: block;
 	padding:  10px 0 10px 0;
 }
 #nav-menu li a:hover {
-	background-color: #00F07A;
+	background-color: #00CFC5;
 }
 
 #main-menu {
