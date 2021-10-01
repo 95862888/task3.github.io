@@ -100,7 +100,7 @@ footer {
 
 
 
-@media screen and (min-width:  960px) {
+@media screen and (min-device-width:  960px) {
 	#linksListContainer {
 		order:  0;
 	}
