@@ -14,7 +14,7 @@ header {
 	background-color: #87FA9C;
 }
 header .wrapper {
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 header #logo {
 	width: 70px;
@@ -22,7 +22,7 @@ header #logo {
 }
 #siteName p {
 	line-height: 70px;
-	margin: 0 0 0 0;
+	margin: 0 0 0 10px;
 }
 .nav_links li {
 	display: inline-block;
